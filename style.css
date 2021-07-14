@@ -1,0 +1,121 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.first-section{
+    background-color: maroon;
+    padding-bottom: 50px;
+    padding-top: 40px;
+   
+}
+.navbar{
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+.navbar
+}
+.nav-buttons{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: small;
+    color: white;
+    
+}
+.loginbtn {
+    color: white;
+    margin-left: 220px;
+    margin-right: 25px;
+    background-color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 300;
+ 
+}
+.banner{
+    height: 438px;
+    width: 556;
+    margin-left: 100px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+.upside{
+    display: flex;
+    justify-content: center;
+}
+.startin-text{
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+
+}
+.link-btn{
+    font-size:small;
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    margin-top: 40px;
+    
+    
+}
+/* Mid part */
+.blog .thumbnail img{
+    height: 256px;
+    width: 300px;
+    border: 1px solid gray;
+    position: relative;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    
+}
+.blog{
+    margin: 5px;
+    background-position: absolute;
+    box-shadow: 5px 5px 5px gray;
+    width: 330px;
+    height: 456px;
+    margin: 7px;
+}
+.second-section{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.space{
+    margin: 3px;
+}
+/* last part */
+.logo-position{
+    width: 483px;
+    height: 213px;
+    padding-left: 25%;
+}
+.social-logo, .copyright{
+    text-align: center;
+}
+.awesome{
+    padding-left: 10px;
+}
+/* Media Quiries */
+@media only screen and (max-width:688px;) {
+    .second-section{
+        width: 100%;
+    }
+    .thumbnail{
+        flex-direction: column;
+    }
+    .blog{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
